@@ -1,0 +1,14 @@
+GET http://localhost:5005/todoitems
+Accept: application/json
+
+###
+POST http://localhost:5005/todoitems
+Content-Type: application/json
+
+{
+  "name":"walk dog",
+  "isComplete":true
+}
+
+###
+
